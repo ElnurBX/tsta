@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0 92px 0 82px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 45px ;
+    height: 25px;
+}
+.logo img{
+    height: 25px;
+}
+nav >ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav >ul >li{
+    padding: 47px 25px;
+    line-height: 22px;
+    font-size: 12px;
+    position: relative;
+}
+nav >ul >li:hover::before{
+    width:calc(100% - 50px);
+}
+nav >ul >li::before{
+    transition: 0.2s ease-in-out 0s;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color:  #000;
+    bottom: 40%;
+    box-sizing: border-box;
+
+}
+.actives{
+    position: relative;
+}
+.actives::before{
+    transition: 0.2s ease-in-out 0s;
+    content: "";
+    position: absolute;
+    width:calc(100% - 50px);
+    height: 1px;
+    background-color:  #000;
+    bottom: 40%;
+    box-sizing: border-box;
+}
+.inner ul li{
+    width:auto;
+    position: relative;
+    padding: 15px;
+}
+.inner ul li:hover::before{
+    position: absolute; 
+    width:calc(100% - 52px);
+}
+.inner ul li::before{
+    transition: 0.2s ease-in-out 0s;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color:  #737373;
+    bottom: 30%;
+    box-sizing: border-box;
+
+}
+.activeinner{
+    position: relative;
+    
+}
+.activeinner::before{
+    content: "";
+    position: absolute;
+    width:calc(100% - 50px);
+    height: 1px;
+    background-color:  #737373;
+    bottom: 30%;
+    box-sizing: border-box;
+}
+
+.secret{
+    background: #fff;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 210px;
+    z-index: 997;
+}
+.secret .inner{
+    height: 0px;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .03);
+    height: 0;
+ 
+}
+.secret .inner ul{
+    padding: 0;
+}
+.inner ul li{
+    padding: 8px 26px;
+}
+.inner ul li a{
+    color: #737373;
+    text-decoration: none;
+}
+nav >ul >li:hover .secret .inner{
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+    padding: 10px;
+    overflow: visible;
+}
+
+.basket{
+    position: relative;
+    align-items: center;
+    display: flex;
+    width: 160px;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.search__button{
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 0;
+}
+.search__button:hover{
+    color: #f34f3f;
+}
+.serchbar{
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .03);
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    z-index: 999;
+    padding: 10px;
+    background: #fff;
+}
+.serchbar input{
+    border: 0;
+    outline: 0;
+}
+.serchbar button{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: #737373;
+
+}
+.serchbar button:hover{
+
+    color: #000;
+}
+.d-n{
+    display: none;
+}.basketmain{
+    position: relative;
+}
+.basketdrop{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    min-height: 100px;
+    right:  25px;
+    top: 100px;
+    position: absolute;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .03);
+    z-index: 999;
+    background: #fff;
+}
+#cout{
+    width: 13px;
+    height: 13px;
+    background: #f34f3f;
+    position: absolute;
+    top: 0;
+    left: 8px;
+    border-radius: 50%; 
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size:8px;
+    color: #fff;
+}
+.x{
+    opacity: 1 !important;
+    visibility: visible !important;
+    overflow: visible !important;
+}
+/* ? carousel */
+.caruselDiscription{
+    position: absolute;
+    width: 35%;
+    left: 10%;
+    top: 10%;
+    font-family: "Playfair Display";
+}
+
+.caruselDiscription>span{
+    font-size: 41px;
+    font-weight: 400;
+}
+.caruselDiscription p{
+    color: rgb(109, 106, 106);
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Lora";
+
+}
+/* ? product sort */
+.sorthead{
+    padding: 57px 0 0 0;
+    justify-content: space-between;
+    position: relative;
+}
+.sorthead ul{
+    display: flex;
+    gap: 10px;
+}
+.sorthead li{
+    margin-right: 32px;
+    font-size: 12px;
+}
+.mkdf-pl-ordering-inner ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.mkdf-pl-ordering{
+    position: absolute;
+    right: 10pc;
+    top: 100px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .03);
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 100;
+}
+.mkdf-pl-ordering-inner ul a{
+    color: #000;
+    text-decoration: none;
+}
+.sortdawnmenu{
+    background-color: #fff;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* ?card */
+.pro__cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pro__card{
+    text-align: center;
+    width: 275px;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+.pro__card img{
+    width: 100%;
+}
+.pro__card__info__cut{
+    width: 245px;
+    overflow: hidden;
+    height: 70px;
+}
+.pro__card__info{
+    transform: translate(-50% , 0);
+    transition: all ease-in-out 0.4s;
+    margin-top: 23px;
+    width: 200%;
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+}
+.pro__card__info__main{
+    width: 245px;
+}
+.pro__card__info__add{
+    width:245px;
+}
+.pro__card__info__add button{
+    background: transparent;
+    border: 0;
+}
+.pro__card:hover .pro__card__info{
+   transform: translate(0% , 0);
+}
+.pro__card:hover img{
+    transform: scale(1.06);
+}
+.lodingCards{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.basketcard{
+    width: 100%;
+    padding: 15px;
+    justify-content: space-between;
+    gap: 10px;
+}
+.basketcard button{
+    color: #f34f3f;
+    background: transparent;
+    border: 0;
+}
+.basketcard span,h6{
+    font-size: 12px;
+    margin: 1px;
+}
+.basketinformativ{
+    padding: 15px;
+
+}
+.btns {
+    display: flex;
+    gap: 5px;
+}
+.btns button{
+    border: 0;
+    color:#fff;
+    width:97px;
+    height: 40px;
+    padding:0 18px;
+    font-size:9px;
+}
+.btns-o{
+    background-color: #f34f3f;
+}
+.btns-b{
+    background: #000;
+
+}

@@ -1,0 +1,18 @@
+{
+    "Flovers": [
+        {   "id": "1", "title": "SCHEFFLERA","price":242,"type":["GREENS"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-1-img.jpg"  },
+        {   "id": "2", "title": "ORANGE AMARYLLIS","price":235,"type":["EXOTIC","VARIOUS"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-2-img.jpg"  },
+        {   "id": "3", "title": "CACTUS IN ORANGE","price":246,"type":["CACTUSES","VARIOUS"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-3-img.jpg"  },
+        {   "id": "4", "title": "PINK FLOWER TREE","price":360,"type":["GREENS","VARIOUS"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-4-img.jpg"  },
+        {   "id": "5", "title": "WILD CACTUS","price":234,"type":["CACTUSES","VARIOUS"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-5-img.jpg"  },
+        {   "id": "6", "title": "COLORFUL TULIPS","price":145,"type":["EXOTIC","VARIOUS"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-6-img.jpg"  },
+        {   "id": "7", "title": "WILD ROSES","price":289,"type":["ALL","EXOTIC","VARIOUS"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-7-img.jpg"  },
+        {   "id": "8", "title": "SUMMER SAVORY","price":215,"type":["ALL","GREENS","VARIOUS"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-8-img.jpg"  },
+        {   "id": "9", "title": "ROCK SOAPWORT","price":205,"type":["ALL","VARIOUS","CACTUSES"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-9-img.jpg"  },
+        {   "id": "10", "title": "SWEET ALYSSUM","price":295,"type":["ALL","POPULAR","WINTER"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-10-img.jpg"  },
+        {   "id": "11", "title": "SPRING SNOWFLAKE","price":225,"type":["ALL","POPULAR"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-11-img.jpg"  },
+        {   "id": "12", "title": "SCARLET SAGE","price":245,"type":["ALL","POPULAR"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-12-img.jpg"  },
+        {   "id": "13", "title": "FOXGLOVE FLOWER","price":240,"type":["ALL","POPULAR","WINTER"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-13-img.jpg"  },
+        {   "id": "14", "title": "MAJESTY PALM","price":245,"type":["ALL","POPULAR","WINTER"],"img":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-14-img.jpg"  }
+    ]
+}

@@ -3,7 +3,7 @@ const basketZone=document.getElementById("basketdrop")
 const cards = document.getElementById("pro__cards");
 
 async function checkData() {
-    const response = await fetch("http://https://tsta.netlify.app:4000/Flovers");
+    const response = await fetch("http://tsta.netlify.app:4000/Flovers");
     const flovers = await response.json();
     return flovers;
 }
